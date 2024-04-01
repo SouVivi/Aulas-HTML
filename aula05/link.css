@@ -1,0 +1,17 @@
+h1 {
+  color: ;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: dimgrey;
+}
+
+h2 {
+  color: red;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: rgb(105, 105, 105);
+}
+
+h3 {
+  color: forestgreen;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: rgba(255, 255, 255, 0.211);
+}body{background-color: aquamarine;}

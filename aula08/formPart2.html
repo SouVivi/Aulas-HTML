@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<header>
+    <h1>Exemplo de formulario no HTML</h1>
+</header>
+
+<body>
+    <article>
+        <div>
+            <label for="idtexto">Nome: </label> <br>
+            <input type="text" id="idtexto" size="35" name="tnome" required>
+        </div> <br> <br>
+        <div>
+            <p>Você mora:</p>
+            <input type="radio" name="tipo" id="idcidade" value="C">
+            <label for="idcidade">Cidade</label> <br>
+
+            
+            <input type="radio" name="tipo" id="idinterior" value="I">
+            <label for="idinterior">Interior</label> <br> <br> <br>
+        </div>
+        <div>
+            <p>Qual meio de transporte você usa?</p>
+            <input type="checkbox" name="idbike" id="idbike" value="Bi">
+            <label for="idbike">Bicicleta</label> <br>
+
+            <input type="checkbox" name="idcar" id="idcar" value="Ca">
+            <label for="idcar">Carro</label> <br>
+
+            <input type="checkbox" name="idmetro" id="idmetro" value="Me">
+            <label for="idmetro"> Metrô</label> <br>
+
+            <input type="checkbox" name="idbus" id="idbus" value="Bu">
+            <label for="idbus">ônibus</label> <br> <br> <br>
+        </div>
+        <div>
+            <label for="time">Escolha seu Time</label>
+            <select name="time" id="time" >
+            <option selected disabled>Unidade</option>
+            <option value="Corinthians">Corinthians</option>
+            <option value="São paulo">São paulo</option>
+            <option value="Flamengo">Flamengo</option>
+            <option value="Palmeiras">Palmeiras</option>
+            <option value="Santos">Santos</option>
+            <option value="Botafogo">Botafogo</option>
+            
+
+        </select>
+        </div><br>
+        <div>
+            <label for="idCid">Escolha sua cidade na lista:</label>
+            <input list="cidade" name="aCid" id="idCid" placeholder="Sua Cidade">
+            
+            <datalist id="cidade">
+                <option value="santos">Santos</option>
+                <option value="Paraisopolis">Paraisopolis</option>
+                <option value="Centro">Centro</option>
+                <option value="Cabo frio">Cabo frio</option>
+
+
+            </datalist> 
+        </div> <br>
+        <div>
+            0
+            <input type="range" name="valor_01" id="valor_01">
+            100
+        </div>
+        <input type="submit" value="Enviar">
+    </article>
+
+</body> <br> <br>
+<footer><small>Instituto da Oportunidade Social</small></footer>
+
+</html>
